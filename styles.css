@@ -43,7 +43,7 @@ th, td {
   background-size:100%100%
 }
 .char-select-t8-img img {
-  background-image:url("/img/T8-spritesheet.webp");
+  background-image:url("./img/T8-spritesheet.webp");
   background-position:200%;
   background-repeat:no-repeat
 }
