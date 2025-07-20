@@ -1,0 +1,162 @@
+table {
+  margin-top: 20px;
+  border-collapse: collapse;
+  width: 100%;
+}
+th, td {
+  border: 1px solid #aaa;
+  padding: 8px;
+  text-align: left;
+}
+
+.char-select-t8 {
+  display:flex;
+  flex-flow:row wrap;
+  justify-content:center;
+  margin:0.8em -1em;
+  font-size:15px;
+  letter-spacing:-0.125ch
+}
+.char-select-t8>div {
+  margin-bottom:1.8em;
+  width:72px;
+  position:relative;
+  margin-left:-3px;
+  margin-right:-3px
+}
+.char-select-t8-text {
+  white-space:nowrap;
+  line-height:initial;
+  text-align:left;
+  position:absolute;
+  left:50%;
+  transform:translateX(-50%)translateX(-8px)
+}
+.char-select-t8-img a {
+  margin:0 auto;
+  display:block;
+  background-size:0 100%;
+  background-repeat:no-repeat;
+  transition:background-size 0.4s ease
+}
+.char-select-t8-img a:hover {
+  background-size:100%100%
+}
+.char-select-t8-img img {
+  background-image:url("/img/T8-spritesheet.webp");
+  background-position:200%;
+  background-repeat:no-repeat
+}
+.char-select-t8-img.alisa img {
+  background-position:-1px -1px!important
+}
+.char-select-t8-img.anna img {
+  background-position:-75px -1px!important
+}
+.char-select-t8-img.asuka img {
+  background-position:-149px -1px!important
+}
+.char-select-t8-img.azucena img {
+  background-position:-223px -1px!important
+}
+.char-select-t8-img.bryan img {
+  background-position:-297px -1px!important
+}
+.char-select-t8-img.claudio img {
+  background-position:-371px -1px!important
+}
+.char-select-t8-img.clive img {
+  background-position:-1px -91px!important
+}
+.char-select-t8-img.devil-jin img {
+  background-position:-75px -91px!important
+}
+.char-select-t8-img.dragunov img {
+  background-position:-149px -91px!important
+}
+.char-select-t8-img.eddy img {
+  background-position:-223px -91px!important
+}
+.char-select-t8-img.feng img {
+  background-position:-297px -91px!important
+}
+.char-select-t8-img.heihachi img {
+  background-position:-371px -91px!important
+}
+.char-select-t8-img.hwoarang img {
+  background-position:-1px -181px!important
+}
+.char-select-t8-img.jack-8 img {
+  background-position:-75px -181px!important
+}
+.char-select-t8-img.jin img {
+  background-position:-149px -181px!important
+}
+.char-select-t8-img.jun img {
+  background-position:-223px -181px!important
+}
+.char-select-t8-img.kazuya img {
+  background-position:-297px -181px!important
+}
+.char-select-t8-img.king img {
+  background-position:-371px -181px!important
+}
+.char-select-t8-img.kuma img {
+  background-position:-1px -271px!important
+}
+.char-select-t8-img.lars img {
+  background-position:-75px -271px!important
+}
+.char-select-t8-img.law img {
+  background-position:-149px -271px!important
+}
+.char-select-t8-img.lee img {
+  background-position:-223px -271px!important
+}
+.char-select-t8-img.leo img {
+  background-position:-297px -271px!important
+}
+.char-select-t8-img.leroy img {
+  background-position:-371px -271px!important
+}
+.char-select-t8-img.lidia img {
+  background-position:-1px -361px!important
+}
+.char-select-t8-img.lili img {
+  background-position:-75px -361px!important
+}
+.char-select-t8-img.nina img {
+  background-position:-149px -361px!important
+}
+.char-select-t8-img.panda img {
+  background-position:-223px -361px!important
+}
+.char-select-t8-img.paul img {
+  background-position:-297px -361px!important
+}
+.char-select-t8-img.raven img {
+  background-position:-371px -361px!important
+}
+.char-select-t8-img.reina img {
+  background-position:-1px -451px!important
+}
+.char-select-t8-img.shaheen img {
+  background-position:-75px -451px!important
+}
+.char-select-t8-img.steve img {
+  background-position:-149px -451px!important
+}
+.char-select-t8-img.victor img {
+  background-position:-223px -451px!important
+}
+.char-select-t8-img.xiaoyu img {
+  background-position:-297px -451px!important
+}
+.char-select-t8-img.yoshimitsu img {
+  background-position:-371px -451px!important
+}
+.char-select-t8-img.zafina img {
+  background-position:-1px -541px!important
+}
+
+
